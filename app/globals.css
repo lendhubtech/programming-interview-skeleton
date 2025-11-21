@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* System Colors */
+    --color-white: #FFFFFF;
+    --color-off-white: #FAFAFA;
+    --color-almost-white: #F0F0F2;
+    --color-light-grey: #DDDDDD;
+    --color-mid-grey: #AFAFAF;
+    --color-stone: #666666;
+    --color-dark-grey: #2D2D2D;
+    --color-almost-black: #121212;
+    --color-black: #000000;
+
+    /* Primary Purple */
+    --color-purple-t3: #F7F3FF;
+    --color-purple-t2: #E6DCFF;
+    --color-purple-t1: #C1ACF9;
+    --color-purple: #813DFF;
+    --color-purple-s1: #5B34C2;
+    --color-purple-s2: #14062C;
+
+    /* Secondary Red */
+    --color-red-t3: #FFF1F1;
+    --color-red-t2: #FFD0D0;
+    --color-red-t1: #FFAFAF;
+    --color-red: #FF6565;
+    --color-red-s1: #BA2424;
+    --color-red-s2: #3A0101;
+
+    /* Secondary Blue */
+    --color-blue-t3: #F4FAFF;
+    --color-blue-t2: #E0F2FF;
+    --color-blue-t1: #AFDCFF;
+    --color-blue: #1F98F7;
+    --color-blue-s1: #2070AB;
+    --color-blue-s2: #020C26;
+
+    /* Secondary Green */
+    --color-green-t3: #ECFFF9;
+    --color-green-t2: #C2F7E7;
+    --color-green-t1: #95E4CD;
+    --color-green: #23C999;
+    --color-green-s1: #0D8E69;
+    --color-green-s2: #022219;
+  }
+}
